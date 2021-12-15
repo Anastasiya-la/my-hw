@@ -1,0 +1,37 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 15px;
+}
+.message_img{
+    border: black solid thin;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.message_content{
+    background-color: darkseagreen;
+    padding: 10px;
+    border-radius: 15px 15px 15px 0px;
+}
+
+.message_text{
+    min-width: 200px;
+    max-width: 300px;
+}
+.message_time{
+    display: flex;
+    justify-content: flex-end;
+}
+.message_name{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkslategray;
+}
+.message_angle{
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, darkseagreen 0);
+}
+
+
