@@ -1,7 +1,9 @@
-.someClass {
-
-}
-
 .error {
     border: 1px solid red;
+}
+.errorMessage {
+    color: red;
+}
+.add{
+    opacity: 0.7;
 }
