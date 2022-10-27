@@ -1,5 +1,19 @@
-.checkbox {
 
+
+.checkbox {
+    cursor: pointer;
+    appearance: none;
+    background: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: black 1px solid;
+}
+
+
+.checkbox:checked {
+    background: url("./checked.png") no-repeat white;
+    background-size: 15px 15px;
 }
 
 .spanClassName {
