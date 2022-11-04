@@ -1,0 +1,74 @@
+.link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.link:active,
+.link:hover {
+    outline: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #9D8665;
+}
+
+.active {
+    color: #9D8665;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.header {
+    border: 1px solid white;
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+.menuBtn {
+    width: 30px;
+    height: 30px;
+    background-image: url("menu-outline.png");
+    background-repeat: no-repeat;
+    position: fixed;
+    right: -35px;
+    top: 10px;
+}
+
+.menuList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    transition: 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+

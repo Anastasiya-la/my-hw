@@ -1,12 +1,26 @@
+input[type="text"] {
+    box-sizing: border-box;
+    width: 250px;
+    height: 30px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type="text"]:focus {
+    color: #000000;
+    background-color: #fff;
+    border-color: #000000;
+    outline: 1px solid #9D8665;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
 .superInput {
-    background: rosybrown;
-   color: lightgray;
+    border: 1px solid #000000;
 }
 
 .errorInput {
-    border: 3px solid darkmagenta;
-    background: rosybrown;
-    color: lightgrey;
+    border: 1px solid red;
 }
 
 .error {

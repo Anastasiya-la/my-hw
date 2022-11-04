@@ -1,20 +1,14 @@
 .someClass {
 
 }
-.btn{
+
+.btn {
     opacity: 0.7;
-    text-decoration: none;
-    padding: 10px 10px;
-    margin: 5px 5px;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-    line-height: 10px;
-    cursor: pointer;
-    overflow: hidden;
-    border: 0;
-    color: #659dbd;
-    background-color: white;
+    color: #ffffff;
+    background-color: #710707;
 }
+
+.btn:hover {
+    background-color: #9D8665;
+}
+

@@ -1,33 +1,44 @@
 .default {
-    color: #659dbd;
-    background: white;
+    color: #ffffff;
+    background-color: #710707;
 }
 
 .red {
     background: red;
+    color: black;
 }
-.button{
-    width: 150px;
-    height: 30px;
-    display: block;
+
+.button {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 12px;
     text-decoration: none;
     padding: 10px 10px;
     margin: 5px 5px;
     border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     letter-spacing: 1px;
     text-align: center;
     line-height: 10px;
     cursor: pointer;
     overflow: hidden;
     border: 0;
+
 }
-.button:hover{
-    color: black;
+
+.button_super {
+    width: 150px;
+    height: 30px;
+}
+
+.button:hover {
+    color: #ffffff;
     transition: all 1s ease;
 }
-.button:disabled{
+
+.default:hover {
+    background-color: #9D8665;
+}
+
+.button:disabled {
     border: 1px solid #999999;
     background-color: #cccccc;
     color: #666666;

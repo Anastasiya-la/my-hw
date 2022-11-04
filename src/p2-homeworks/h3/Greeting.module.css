@@ -1,5 +1,6 @@
 .error {
     border: 1px solid red;
+
 }
 
 .errorMessage {
@@ -11,35 +12,30 @@
     opacity: 0.7;
     height: 30px;
     width: 70px;
-    text-decoration: none;
-    padding: 10px 10px;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-    line-height: 10px;
-    cursor: pointer;
-    overflow: hidden;
-    border: 0;
-    color: #659dbd;
-    background-color: white;
+    color: #ffffff;
+    background-color: #710707;
+}
+
+.add:hover {
+    background-color: #9D8665;
 }
 
 
+/*
 input[type="text"] {
     box-sizing: border-box;
     width: 250px;
     height: 30px;
     padding: 15px 10px;
-    border: 1px solid #bdbdbd;
+    border: 1px solid #000000;
     border-radius: 5px;
     background-color: white;
 }
-input[type="text"]:focus{
-    color: #212529;
-    background-color: #fff;
-    border-color: #659dbd;
-    outline: 1px solid #bdbdbd ;
-    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+*/
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+

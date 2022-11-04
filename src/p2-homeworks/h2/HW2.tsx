@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import s from "../../p1-main/m1-ui/u1-app/App.module.css";
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle'
@@ -41,7 +42,7 @@ function HW2() {
     return (
         <div>
             <hr/>
-            homeworks 2
+           <h2>homeworks 2</h2>
 
             {/*should work (должно работать)*/}
             <Affairs
@@ -50,10 +51,10 @@ function HW2() {
                 deleteAffairCallback={deleteAffairCallback}
             />
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
-            <hr/>
+        {/*    <hr/>
+            для личного творчества, могу проверить
+            <AlternativeAffairs/>
+            <hr/>*/}
         </div>
     )
 }

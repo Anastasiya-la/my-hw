@@ -1,3 +1,27 @@
 .App {
-    background-color: #659dbd;
+
 }
+
+h2 {
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.content {
+    width: 1280px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
